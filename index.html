@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase Chat</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+  <style>
+    body {
+      font-family: 'HelveticaNeue-Light';
+    }
+    .msg {
+      margin: 10px 0;
+      padding: 10px;
+      width: 400px;
+      background-color: #efefef;
+    }
+    #username, #text {
+      margin: 5px 0px;
+    }
+    #post {
+      padding: 0.5em 1em;
+      background-color: #50b1ff;
+      border: none;
+      color: #FFF;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <div id="messages"></div>
+  <input id="username" type="text" placeholder="Name"><br/>
+  <input id="text" type="text" placeholder="Message"><br/>
+  <button id="post">Post</button><br/>
+  <script src="./app.js"></script>
+
+</body>
+</html
