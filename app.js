@@ -1,7 +1,7 @@
 
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBQoUB9jUoY2_Xz7tYZFhWrqpSrM5Is9ro",
+    apiKey: "************************5Is9ro",
     authDomain: "fir-group-web-chat-app.firebaseapp.com",
     databaseURL: "https://fir-group-web-chat-app.firebaseio.com",
     projectId: "fir-group-web-chat-app",
